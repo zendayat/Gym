@@ -1,0 +1,88 @@
+.Join_heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.Join_heading>:nth-child(1){
+    font-size: 1rem;
+    color: white;
+    letter-spacing: 0.8rem ;
+}
+.form_container{
+    padding-bottom: 5rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: fit-content;
+    background-color: rgba(51, 59, 50, 0.288);
+    padding: 2rem;
+    border: 2px solid var(--orange);
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: 10%;
+}
+form>input{
+    width: 14rem;
+    height: 1.5rem;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    
+}
+.socials{
+    display: flex;
+    gap: 1.5rem;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+}
+.box{
+    font-size: 1.5rem;
+}
+.socials .box:nth-child(1) a{
+    color: rgb(172, 8, 8);
+}
+.socials .box:nth-child(2) a{
+    color: rgb(0, 132, 255);
+}
+.socials .box:nth-child(3) a{
+    color: rgb(12, 184, 236);
+}
+.socials .box:nth-child(1) a{
+    color: rgb(172, 8, 8);
+}
+.under_socials{
+    background-color: var(--orange);
+    height: 3px;
+    width: 70%;
+    border-radius: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.head{
+    font-size: 2rem;
+}
+label{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+select{
+    background-color: gray;
+}
+option{
+    color: white;
+}
+.dropdown{
+    display: flex;
+    gap: 2rem;
+}
+.submit{
+    background-color: transparent;
+    border: 2px solid var(--orange);
+    color: white;
+}

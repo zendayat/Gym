@@ -1,0 +1,133 @@
+.Hero{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(0, 0, 0);
+}
+.hero-l{
+    padding: 2rem;
+    padding-top: 0.5rem;
+    flex: 3;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+.hero-r{
+    flex: 1;
+    background-color: var(--orange);
+    position: relative;
+}
+.the-best-ad{
+    margin-top: 1rem;
+    background-color: rgba(12, 12, 12, 0.89);
+    border-radius: 4rem;
+    width: fit-content;
+    padding: 20px 13px;
+    color: white;
+    position: relative;
+    align-items: center;
+    justify-content: flex-start;
+    display: flex; 
+}
+.the-best-ad>div{
+    position: absolute;
+    background-color: var(--orange);
+    width: 5rem;
+    height: 80%;
+    left: 8px;
+    border-radius: 3rem;
+}
+.the-best-ad>span{
+    z-index: 2;
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: white;
+    text-overflow: inherit;
+}
+.hero-text>div:nth-of-type(3){
+    font-size: 1rem;
+    font-weight: 200;
+    letter-spacing: 1px;
+    width: 80%;
+}
+.figures{
+    display: flex;
+    gap: 2rem;
+}
+.figures>div{
+    display: flex;
+    flex-direction: column;
+}
+.figures>div>span:nth-of-type(1){
+    color: white;
+    font-size: 2rem;
+}
+.figures>div>span:nth-of-type(2){
+    color: var(--gray);
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+.hero-btns{
+    display: flex;
+    gap: 1rem;
+    font-weight: normal;
+}
+.hero-btns>:nth-child(1){
+    color: white;
+    background-color: var(--orange);
+    width: 8rem;
+}
+.hero-btns>:nth-child(2){
+    color: white;
+    background-color: transparent;
+    width: 8rem;
+    border: 2px solid var(--orange);
+}
+.hero-r>.btn{
+    position: absolute;
+    right: 3rem;
+    top: 2rem;
+
+}
+.beast_mode{
+    display: flex;
+    flex-direction: column;
+    gap: 2;
+    background-color: var(--darkGrey);
+    width: fit-content;
+    padding: 1rem;
+    align-items: center;
+    border-radius: 5px;
+    position: absolute;
+    right: 4rem;
+    top: 7rem;
+}
+.beast_mode>img{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 3.5rem;
+    scale: 0.75;
+    border: 2px solid var(--orange);
+}
+.beast_mode>span:nth-of-type(1){
+    font-size: 1.5rem;
+}
+.beast_mode>span:nth-of-type(2){
+    font-weight: bolder;
+}
+.hero_image{
+    position: absolute;
+    top: 10rem;
+    right: 16rem;
+    width: 23rem;
+}
+@media screen and (max-width: 1024px){
+    
+}
+@media screen and (max-width: 600px){
+    
+}

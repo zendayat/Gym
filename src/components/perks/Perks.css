@@ -1,0 +1,52 @@
+.perks_body{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 9rem;
+    /* background-color: peachpuff; */
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding-bottom: 3rem;
+}
+.stroke-text{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.equals_line{
+    border: 0.3rem solid palevioletred;
+    width: 3px;
+    height: 7rem;
+}
+.provinsions_body{
+    width: 40%;
+    height: 90%;
+    /* background-color: peachpuff; */
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.provinsions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    border: 2px solid var(--orange);
+    padding: 0.5rem;
+    transition: 0.8s;
+    border-radius: 1rem;
+}
+.provinsions:hover{
+    border: 2px solid var(--orange);
+    background-color: rgba(31, 28, 28, 0.795);
+    cursor: pointer;
+}
