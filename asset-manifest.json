@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Gym/static/css/main.b4f484e4.css",
+    "main.js": "/Gym/static/js/main.b40d7d51.js",
+    "static/media/vid1.mp4": "/Gym/static/media/vid1.78163d2991b14e829694.mp4",
+    "static/media/t-image1.png": "/Gym/static/media/t-image1.c16c2c261034cf78ee57.png",
+    "static/media/hero_image1.png": "/Gym/static/media/hero_image1.8a5622317b89ad5aeccf.png",
+    "static/media/t-image3.jpg": "/Gym/static/media/t-image3.3894413f7bf2b4f1fc54.jpg",
+    "static/media/t-image2.jpg": "/Gym/static/media/t-image2.f5d2e52e514c544dfffb.jpg",
+    "static/media/image5.jpeg": "/Gym/static/media/image5.abf8bd953f52a97b1ba4.jpeg",
+    "static/media/t-image4.png": "/Gym/static/media/t-image4.370fb3aad6d2348b04ee.png",
+    "static/media/t-image5.png": "/Gym/static/media/t-image5.571e471feb52ab0fcc9b.png",
+    "static/media/image7.jpeg": "/Gym/static/media/image7.15034115cf147e3cc176.jpeg",
+    "static/media/Logo.png": "/Gym/static/media/Logo.fd4ca5bc673a56b75d32.png",
+    "static/media/heart4.jpeg": "/Gym/static/media/heart4.7ebc8f288556a4d85ecf.jpeg",
+    "static/media/heartHealth.svg": "/Gym/static/media/heartHealth.644e2dc11a3f968c0ebd72936030b7ca.svg",
+    "index.html": "/Gym/index.html",
+    "main.b4f484e4.css.map": "/Gym/static/css/main.b4f484e4.css.map",
+    "main.b40d7d51.js.map": "/Gym/static/js/main.b40d7d51.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b4f484e4.css",
+    "static/js/main.b40d7d51.js"
+  ]
+}
