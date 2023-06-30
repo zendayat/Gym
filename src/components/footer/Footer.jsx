@@ -7,7 +7,7 @@ import {BsTwitter} from 'react-icons/bs'
 const Footer = () => {
   return (
     <div className='footer_body'>
-      <div className='line'>vv</div>
+      <div className='line'></div>
       <div className='footer_contents'>
         <div className='footer_socials'>
           <div className='box'><a href='#'><BsInstagram/></a></div>

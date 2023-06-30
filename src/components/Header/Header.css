@@ -21,5 +21,12 @@
     
 }
 @media screen and (max-width: 600px){
-    
+    .header-menu{
+        visibility: hidden;
+    }
+    .logo{
+        position: relative;
+        margin-left: 2rem;
+        
+    }
 }

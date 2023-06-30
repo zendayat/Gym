@@ -51,7 +51,6 @@ const Hero = () => {
             <span>Annual programmes</span>
           </div>
         </div>
-        
         {/* buttons */}
 
         <div className='hero-btns'>

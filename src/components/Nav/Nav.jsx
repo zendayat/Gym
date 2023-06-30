@@ -32,7 +32,15 @@ const Nav = () => {
         </div>
       </nav>
 
-      <div className={menu_class}></div>
+      <div className={menu_class}>
+        <ul className='header-menu'>
+          <li>Home</li>
+          <li>Programs</li>
+          <li>About us</li>
+          <li>Plans</li>
+          <li>Testimonials</li>
+        </ul>
+      </div>
     </div>
   )
 }

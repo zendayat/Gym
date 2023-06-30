@@ -1,3 +1,6 @@
+.navbar{
+    display: none;
+}
 .nav{
     width: 8rem;
     height: 13rem;
@@ -7,7 +10,7 @@
     padding: 1em;
 }
 .burger_menu{
-    height: 20%;
+    height: 10%;
     width: 2.5em;
     /* background-color: orange; */
     display: flex;
@@ -24,19 +27,18 @@
 }
 .menu{
     background-color: rgba(92, 92, 92, 0.822);
-    height: 64vh;
-    height: 14rem;
+    height: fit-content;
     margin-top: -11rem;
     margin-right: 0.5rem;
 }
 .hidden{
-    display: hidden;
+    display: none;
 }
 .visible{
-    display: inherit;
+    display: block;
 }
 .burger-bar .clicked:nth-child(1){
-    rotate: (45deg) translate(0.75em, 1.25em);
+    transform: rotate(45deg) translate(0.75em, 1.25em);
     transition: ease-out 0.5s;
 }
 .burger-bar .clicked:nth-child(2){
@@ -44,11 +46,26 @@
     transition: ease-out 0.5s;
 }
 .burger-bar .clicked:nth-child(3){
-    rotate: (135deg) translate(-0.5em, 1em);
+    transform: rotate(135deg) translate(-0.5em, 1em);
     transition: ease-out 0.45s;
 }
 .burger-bar .unclicked{
-    rotate: (0) translate(0);
+    transform: rotate(0) translate(0);
     transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
 }
-
+@media screen and (max-width: 1024px){
+    
+}
+@media screen and (max-width: 600px){
+    .menu ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .menu{
+        padding-bottom: 2rem;
+        padding-top: 1.5rem;
+    }
+    .navbar{
+        display: block;
+    }
+}

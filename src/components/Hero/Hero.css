@@ -129,5 +129,42 @@
     
 }
 @media screen and (max-width: 600px){
-    
+    .hero_image{
+        z-index: -1;
+        opacity: 0.4;
+    }
+    .hero-r>:nth-child(1),.hero-r>:nth-child(2){
+        display: none;
+    }
+    .hero-text>:nth-child(2){
+        font-size: 2rem;
+    }
+    .hero-text>:nth-child(1){
+        font-size: 2.6rem;
+    }
+    .hero-text>:nth-child(3){
+        display: none;
+    }
+    .figures{
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: rem;
+        width: 90vw;
+        margin-left: -1rem;
+    }
+    .figures>div{
+        padding-left: 5px;
+        padding-right: 5px;
+        border: 2px solid var(--orange);
+        border-radius: 10px;
+    }
+    .figures div{
+        font-size: 1.5rem;
+    }
+    .the-best-ad{
+        margin-top: 0.3rem;
+    }
+    .hero-btns{
+        gap: 1.5rem;
+    }
 }

@@ -50,3 +50,24 @@
     background-color: rgba(31, 28, 28, 0.795);
     cursor: pointer;
 }
+@media screen and (max-width: 1024px){
+
+}
+@media screen and (max-width: 600px){
+    .stroke-text{
+        font-size: 1.8rem;
+    }
+    .perks_body{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .equals_line{
+        width: 7rem;
+        height: 3px;
+        border-width: 0.1rem;
+    }
+    .provinsions_body{
+        width: 90vw;
+        gap: 2rem;
+    }
+}
